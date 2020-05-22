@@ -2,7 +2,7 @@
 
 object  q2 extends App {
 
-  var volume : Double = math.Pi*5*5*5*4/5;
-  print(volume);
+  def volume(r : Double) : Double = math.Pi*r*r*r*4/5;
+  print(volume(5));
 
 }
